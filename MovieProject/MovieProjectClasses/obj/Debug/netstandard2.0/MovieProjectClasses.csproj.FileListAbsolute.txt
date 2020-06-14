@@ -1,0 +1,9 @@
+D:\OneDrive\C#\C_Sharp\HW2.2\MovieProject\MovieProjectClasses\bin\Debug\netstandard2.0\MovieProjectClasses.deps.json
+D:\OneDrive\C#\C_Sharp\HW2.2\MovieProject\MovieProjectClasses\bin\Debug\netstandard2.0\MovieProjectClasses.dll
+D:\OneDrive\C#\C_Sharp\HW2.2\MovieProject\MovieProjectClasses\bin\Debug\netstandard2.0\MovieProjectClasses.pdb
+D:\OneDrive\C#\C_Sharp\HW2.2\MovieProject\MovieProjectClasses\obj\Debug\netstandard2.0\MovieProjectClasses.csprojAssemblyReference.cache
+D:\OneDrive\C#\C_Sharp\HW2.2\MovieProject\MovieProjectClasses\obj\Debug\netstandard2.0\MovieProjectClasses.AssemblyInfoInputs.cache
+D:\OneDrive\C#\C_Sharp\HW2.2\MovieProject\MovieProjectClasses\obj\Debug\netstandard2.0\MovieProjectClasses.AssemblyInfo.cs
+D:\OneDrive\C#\C_Sharp\HW2.2\MovieProject\MovieProjectClasses\obj\Debug\netstandard2.0\MovieProjectClasses.csproj.CoreCompileInputs.cache
+D:\OneDrive\C#\C_Sharp\HW2.2\MovieProject\MovieProjectClasses\obj\Debug\netstandard2.0\MovieProjectClasses.dll
+D:\OneDrive\C#\C_Sharp\HW2.2\MovieProject\MovieProjectClasses\obj\Debug\netstandard2.0\MovieProjectClasses.pdb

@@ -1,0 +1,46 @@
+﻿<Window x:Class="MovieApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MovieApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"   
+        Initialized="Window_Initialized"
+        Closing="Window_Closing"      
+        Icon="/title.ico">
+    <!-- Menu line -->
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Add">
+                <MenuItem Header="Person" Click="add_Person_click">
+                </MenuItem>
+                <MenuItem Header="Movie" Click="add_movie_click">
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="_Search">
+                <MenuItem Header="By name" Click="search_by_name_click">
+                </MenuItem>
+                <MenuItem Header="By year" Click="search_by_year_click">
+                </MenuItem>
+                <MenuItem Header="By director" Click="search_by_director_click">
+                </MenuItem>
+                <MenuItem Header="By actor" Click="search_by_actor_click">
+                </MenuItem>
+                <MenuItem Header="By IMDB score" Click="search_by_imdb_click">
+                </MenuItem>
+                <MenuItem Header="By Rotten Tomatoes score" Click="search_by_rotten_click">
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="_Delete" Click="delete_Click"/>
+        </Menu>
+        <ListBox Name="lbMovies" Grid.Row="1" Grid.Column="0" 
+                 ItemsSource="{Binding Dict}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Value}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </DockPanel>
+</Window>
